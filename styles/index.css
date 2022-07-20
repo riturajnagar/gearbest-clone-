@@ -1,0 +1,131 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+/* #navbar {
+  width: 100%;
+} */
+/* top navbar css */
+#top_nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+select,
+a {
+  margin: 0px 10px;
+  text-decoration: none;
+  border: none;
+}
+
+/* middlenavbar css */
+
+#middle_nav {
+  display: flex;
+  justify-content: space-between;
+}
+#icon {
+  width: 15%;
+  margin-right: 50px;
+}
+#icon > img {
+  width: 100%;
+}
+#search {
+  border: 2px solid yellow;
+  width: 30%;
+  height: 30px;
+  position: relative;
+  top: 15px;
+  padding: 0px;
+  background-color: yellow;
+  border-radius: 20px;
+  display: flex;
+}
+
+#search > #s_select {
+  background-color: transparent;
+  padding: 0px 5px;
+  margin-left: 0px;
+  border-radius: 20px;
+}
+#search > #s_bar {
+  border: none;
+  padding: 0px 10px;
+  width: 100%;
+}
+#s-btn {
+  border: none;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+}
+#s-btn:hover {
+  cursor: pointer;
+}
+#s-btn > img {
+  width: 500%;
+  position: relative;
+  top: -18px;
+  left: -27px;
+  padding: 0px;
+}
+
+#options {
+  /* border: 1px solid red; */
+  margin-right: 10%;
+  display: flex;
+  gap: 30px;
+
+  width: 20%;
+  padding: 0px 5px;
+}
+#options > div {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+#options > div>p{
+    width: 60px;
+}
+#options > div > img {
+  /* border: 1px solid blue; */
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+#options > div > img:hover {
+  background-color: yellow;
+}
+
+#categories {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-color: yellow;
+}
+#categories > div {
+  /* border: 1px solid red; */
+  padding: 5px 5%;
+}
+#categories > div > a {
+  font-size: 20px;
+  font-weight: 600;
+}
+#categories > div > a {
+  color: black;
+}
+#categories > div:first-child > a {
+  color: white;
+}
+
+#categories > div {
+  background-color: yellow;
+}
+#categories > div:first-child {
+  background-color: black;
+}
