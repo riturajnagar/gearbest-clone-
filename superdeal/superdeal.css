@@ -55,12 +55,18 @@
 .gitem p{
     margin-top: 3px;
     font-family: sans-serif;
-   font-size: 10px;
+   font-size: 15px;
    margin-left: 4px;
 }
 .gitem p+p{
     color: 
     #f30246;
+    font-size: 15px;
+    padding-right: 190px;
+}
+.prev p {
+font-size: 14px;
+padding-right: 200px;
 }
 
 
@@ -73,6 +79,7 @@ cursor: pointer;
     position: relative;
     top: -6px;
 }
+
 
 #gcontainer>div>div p{
     color:gray;

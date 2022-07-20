@@ -198,7 +198,7 @@ let display =(data)=>{
         price.innerText="$ "+el.price;
         let prevPrice=document.createElement("p");
         let div1=document.createElement("div");
-
+div1.setAttribute("class","prev")
         let hr=document.createElement("hr")
         hr.setAttribute("class","disc")
         prevPrice.innerText=el.prevPrice;
