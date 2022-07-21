@@ -32,7 +32,7 @@
     grid-template-rows: repeat(auto,1fr);
     gap:10px;
     background-color: #f2f2f2;
-    
+    /* border: 1px solid darkblue; */
 }
 #gcartbtn {
     width: 10%; 
@@ -41,6 +41,8 @@
     cursor: pointer;
 }
 #gcontainer>div{
+  /* border: 1px solid darkgreen; */
+  width: 100%;
     background-color:white;
 }
 .gitem:hover{
@@ -105,7 +107,7 @@ cursor: pointer;
 }
 
 #scont{
-    border: 1px solid saddlebrown;
+    /* border: 1px solid saddlebrown; */
     width: 90%;
     margin: auto;
     display: grid;
@@ -119,7 +121,7 @@ cursor: pointer;
 
 /* ssssssssssssssss */
 body {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
   /* #navbar {

@@ -189,6 +189,10 @@ let display =(data)=>{
     box.innerHTML=null;
     data.forEach((el)=>{
         let div = document.createElement("div");
+        div.addEventListener("click",function(){
+            
+            localStorage.setItem("cart_item",JSON.stringify(el))
+        })
         div.setAttribute("class","gitem");
         let img=document.createElement("img");
         img.src=el.image;
@@ -248,8 +252,43 @@ function sortbyprice(){
     }
    
 }
+document.querySelector("#hottest").addEventListener("click",function(){
+    hottest()
+})
+
+function hottest(){
+        let x= data.sort(function(a,b){
+            if(a.id>b.id) return 1;
+            if(a.id<b.id) return -1;
+              return 0;
+        
+       })
+       console.log(x)
+       display(x)
+    }
+
+
+    document.querySelector("#newest").addEventListener("click",function(){
+        newest()
+    })
+  function newest(){
+
+    let x= data.sort(function(a,b){
+        if(a.id>b.id) return -1;
+        if(a.id<b.id) return 1;
+          return 0;
+
+   })
+   console.log(x)
+   display(x)
+
+  }
+
   
 
 
 import navbar from "./navbar.js";
 document.querySelector("#navbar").innerHTML=navbar();
+
+import footer from "./footer.js";
+document.querySelector("#footer").innerHTML=footer();
