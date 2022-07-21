@@ -1,0 +1,103 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#head{
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#head>img{
+    height: 100%;
+}
+#heading{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#body{
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+.input{
+    display:inline-block;
+    margin-bottom: 20px;
+    
+}
+.details{
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    display: inline-block;
+}
+.lable{
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#checkbox{
+    display: flex;
+}
+#check{
+    height: 20px;
+    padding-top: 10px;
+}
+.button{
+    display: flex;  
+}
+#con>a{
+    text-decoration: none;
+    color: black;
+}
+#can{
+    width: 120px;
+    height: 40px;
+    padding-right: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+#con{
+    width: 120px;
+    height: 40px;
+    padding-right: 15px;
+    margin-right: 15px;
+    background: #ffda00;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#bottom{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom>p{
+    display: inline-block;
+}
+#popular{
+    border-radius: 1px solid black;
+    padding-left: 100px;
+}
+
+#popular>a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
+#popular>a:hover{
+    text-decoration: underline;
+}
+#tagg{
+    width: 25%;
+    margin-left: 100px;
+}
