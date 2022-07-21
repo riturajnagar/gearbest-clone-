@@ -1,5 +1,30 @@
+<<<<<<< HEAD:scripts/index.js
+// importing navbar
+import navbar from "../components/navbar.js";
+
+document.getElementById("navbar").innerHTML = navbar();
+
+// importing footer
+import footer from "../components/footer.js";
+
+document.getElementById("footer").innerHTML = footer();
+
+document.getElementById("icon").addEventListener("click", refresh);
+document.getElementById("footer_logo").addEventListener("click", refresh);
+function refresh() {
+  window.location.href = "../index.html";
+};
+
+
+
+// home page Data JS part 
+
+
+var product = [
+=======
 
 let data=[
+>>>>>>> main:superdeal/super.js
     {
         id:"1",
         image:"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16534/goods_img-v1/ed230b4b2700.jpg",
@@ -287,8 +312,12 @@ function hottest(){
   
 
 
+<<<<<<< HEAD:scripts/index.js
+// Home page JS Data part End
+=======
 import navbar from "./navbar.js";
 document.querySelector("#navbar").innerHTML=navbar();
 
 import footer from "./footer.js";
 document.querySelector("#footer").innerHTML=footer();
+>>>>>>> main:superdeal/super.js

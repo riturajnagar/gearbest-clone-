@@ -3,6 +3,11 @@ document.querySelector("#navbar").innerHTML = navbar();
 
 import footer from "../components/footer.js";
 document.querySelector("#footer").innerHTML = footer();
+document.getElementById("icon").addEventListener("click", refresh);
+document.getElementById("footer_logo").addEventListener("click", refresh);
+function refresh() {
+  window.location.href = "../index.html";
+}
 let data = [
   {
     id: "1",
