@@ -13,7 +13,7 @@ let signin = (e) => {
     data.forEach((el)=>{
      if(getPassword == el.password){
 
-            alert("Login Successfully")
+            alert("Signin Successfully")
 
         }
         else{
