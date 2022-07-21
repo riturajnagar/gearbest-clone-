@@ -39,21 +39,21 @@ let navbar = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
           alt=""
         />
-        <p>Sign In</p>
+        <a href="">Sign In</a>
       </div>
       <div>
         <img
           src="https://cdn-icons-png.flaticon.com/512/73/73814.png"
           alt=""
         />
-        <p>Favorites</p>
+        <a href="">Favorites</a>
       </div>
       <div>
         <img
           src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/shopping-cart.png"
           alt=""
         />
-        <p>Cart</p>
+        <a href="">Cart</a>
       </div>
     </div>
   </div>

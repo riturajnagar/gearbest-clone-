@@ -1,6 +1,7 @@
 body {
   width: 80%;
   margin: auto;
+  background-color: white;
 }
 /* #navbar {
   width: 100%;
@@ -33,15 +34,16 @@ a {
   width: 100%;
 }
 #search {
-  border: 2px solid yellow;
+  border: 2px solid #fbd900;
   width: 30%;
   height: 30px;
   position: relative;
   top: 15px;
   padding: 0px;
-  background-color: yellow;
+  background-color: #fbd900;
   border-radius: 20px;
   display: flex;
+  margin-bottom: 40px;
 }
 
 #search > #s_select {
@@ -78,7 +80,7 @@ a {
   margin-right: 10%;
   display: flex;
   gap: 30px;
-
+  margin-bottom: 30px;
   width: 20%;
   padding: 0px 5px;
 }
@@ -86,11 +88,13 @@ a {
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 25px;
   padding: 0px 10px;
+  margin-left: -10%;
 }
-#options > div>p{
-    width: 60px;
+#options > div > a {
+  width: 60px;
+  margin-left: 5%;
 }
 #options > div > img {
   /* border: 1px solid blue; */
@@ -99,14 +103,14 @@ a {
   margin-right: 5px;
 }
 #options > div > img:hover {
-  background-color: yellow;
+  background-color: #fbd900;
 }
 
 #categories {
   display: flex;
   width: 100%;
   /* border: 1px solid red; */
-  background-color: yellow;
+  background-color: #fbd900;
 }
 #categories > div {
   /* border: 1px solid red; */
@@ -124,8 +128,153 @@ a {
 }
 
 #categories > div {
-  background-color: yellow;
+  background-color: #fbd900;
 }
 #categories > div:first-child {
   background-color: black;
+}
+
+/* css for footer */
+#footer {
+  /* border: 1px solid red; */
+  margin-top: 5%;
+}
+#footer > div {
+  margin-bottom: 26px;
+}
+#footer1 {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 20px;
+  background-color: white;
+}
+#footer1 > div > h4 {
+  text-align: center;
+  margin-top: 5px;
+}
+#footer1 > div > h4:hover {
+  color: #fbd900;
+}
+#footer1 > div > p {
+  margin: auto;
+  margin-top: -20px;
+  width: 80%;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+#footer_logo {
+  width: 100%;
+}
+#footer1 > div > img {
+  display: block;
+  margin: auto;
+}
+#footer1 > div:first-child {
+  margin-right: 5%;
+}
+#footer2 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding: 0px 10px;
+}
+#footer2 > div {
+  display: flex;
+  /* border: 1px solid blue; */
+}
+#footer2 > div:first-child > p {
+  padding: 0px 10px;
+}
+#footer2 > div:first-child > input {
+  padding: 0px 10px;
+  width: 250px;
+}
+#subs_btn {
+  margin: 0px;
+  padding: 0px 50px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#social_icons > div {
+  border: 1px solid black;
+  margin: auto 10px;
+  border-radius: 50%;
+}
+#social_icons > div:hover {
+  background-color: red;
+}
+#social_icons > div:nth-child(1):hover {
+  background-color: #38529a;
+}
+#social_icons > div:nth-child(2):hover {
+  background-color: #1c81f7;
+}
+#social_icons > div:nth-child(6):hover {
+  background-color: #1c81f7;
+}
+#social_icons > div:nth-child(7):hover {
+  background-color: #1c81f7;
+}
+#social_icons > div > img {
+  width: 20px;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  align-items: center;
+  border-radius: 50% 50% 50% 50%;
+  /* background-color: yellow; */
+}
+
+#footer3 {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+}
+#footer3 > div {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+#footer3 > div > a {
+  display: block;
+  color: rgb(91, 87, 87);
+  text-align: left;
+}
+#footer3 > div > h4 {
+  text-align: left;
+  margin-left: 10px;
+}
+#download_link {
+  display: flex;
+}
+#download_link > div > img {
+  width: 100px;
+}
+#app_store > a > img {
+  width: 120px;
+  margin: 2px;
+  height: 50px;
+}
+#app_store > a {
+  display: block;
+  /* border: 1px solid red; */
+  margin-top: -5px;
+}
+#footer4 {
+  margin-top: 50px;
+}
+#footer4 > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer4 > div > img {
+  width: 80px;
+  height: 40px;
+  margin-bottom: 20px;
 }
