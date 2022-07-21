@@ -44,6 +44,6 @@ let confirm = (e) =>{
     console.log(user)
 
     alert("Address Successfully Saved")
-    // window.location.href = "./payment.html"
+    window.location.href = "./payment.html"
 
 }
