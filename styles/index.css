@@ -43,6 +43,7 @@ a {
   background-color: #fbd900;
   border-radius: 20px;
   display: flex;
+  margin-bottom: 40px;
 }
 
 #search > #s_select {
@@ -79,7 +80,7 @@ a {
   margin-right: 10%;
   display: flex;
   gap: 30px;
-
+  margin-bottom: 30px;
   width: 20%;
   padding: 0px 5px;
 }
@@ -87,11 +88,13 @@ a {
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 25px;
   padding: 0px 10px;
+  margin-left: -10%;
 }
-#options > div > p {
+#options > div > a {
   width: 60px;
+  margin-left: 5%;
 }
 #options > div > img {
   /* border: 1px solid blue; */
