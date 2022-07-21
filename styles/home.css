@@ -1,0 +1,28 @@
+#ash1{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#ash2{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+
+#ash3{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 3%;
+    text-align: center;
+    font-size: large;
+  
+}
+
+#ash3>div{
+    border: 1px solid black;
+}
