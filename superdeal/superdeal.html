@@ -1,0 +1,244 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="superdeal.css" />
+    <link rel="stylesheet" href="slide.css" />
+   <link rel="stylesheet" href="footer.css">
+  </head>
+  <body onload="onshow()">
+    <div id="navbar"></div>
+
+    <div id="containertop2">
+      <div id="i1">
+        <img
+          src="https://uidesign.gbtcdn.com/GB/image/2019/20190417_9244/supDeals.png"
+          alt=""
+        />
+      </div>
+      <div id="i2">
+        <img
+          src="https://uidesign.gbtcdn.com/GB/images/others/top_brands/All%20Flash%20Sales.png?imbypass=true"
+          alt=""
+        />
+      </div>
+
+      <button onclick="moveleft2()" id="btnleft2"><</button>
+      <div id="container2"></div>
+      <button onclick="moveright2()" id="btnright2">></button>
+    </div>
+
+    <div id="gsort">
+      <h4>Sort By :</h4>
+      <h4>Recommend</h4>
+      <h4 id="hottest">Hottest</h4>
+      <h4 id="newest">Newest</h4>
+      <h4 id="sortbyprice">Price</h4>
+    </div>
+
+    <div id="gcontainer"></div>
+    <div id="gpopsearch">
+      <div>
+        <p>popular searches :</p>
+        <p>xiaomi poco m3</p>
+        <p>ortur master 2 20w</p>
+        <p>children's toys</p>
+        <p>xiaomi phone cases</p>
+        <p>telefono de telefonica</p>
+        <p>mobile phoned</p>
+      </div>
+      <div>
+        <p></p>
+        <p>xiaomi note 10 cc9 pro</p>
+        <p>mi xiaomi</p>
+        <p>xiaomi note</p>
+        <p>tpu smartphones</p>
+        <p>screen protetor</p>
+        <p>bluetooth vga</p>
+      </div>
+    </div>
+
+    <!-- <div id="gfeatures">
+      <img src="img.PNG" alt="" />
+    </div> -->
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="super.js" type="module"></script>
+<script>
+  let mensData2 = [
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Exclusive%20Brands.png?imbypass=true",
+      name: "Exclusive Brands",
+      price: "1170",
+      strikedoffprice: "$2599",
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Mobile%20Phones1.png",
+      name: "Mobile phone",
+      price: 699,
+      pop: 1,
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Electronics1.png?imbypass=true",
+      name: "Headphone",
+      price: 945,
+      strikedoffprice: 2099,
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Toys,%20Baby%20&%20Kids11.png?imbypass=true",
+      name: "Toys Baby & kids",
+      price: 399,
+      strikedoffprice: 799,
+      brand: "women",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Computer%20&%20Office11.png?imbypass=true",
+      name: "Computer & office",
+      price: 1620,
+      strikedoffprice: 3599,
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Electrical%20&%20Tools1.png?imbypass=true ",
+      name: "Electrical & tools ",
+      price: 1440,
+      strikedoffprice: 3199,
+      brand: "Retrac ble lip",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Appliances11.png?imbypass=true",
+      name: "Appliances",
+      price: 1999,
+      strikedoffprice: 3199,
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Fashion11.png?imbypass=true",
+      name: "Fashion ",
+      price: 769,
+      strikedoffprice: 1099,
+      brand: "women",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Health%20&%20Beauty11.png?imbypass=true",
+      name: "Health and Beauty",
+      price: 1299,
+      strikedoffprice: 1440,
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Outdoors%20&%20Sports111.png?imbypass=true",
+      name: "Outdoors & sports",
+      price: 699,
+      strikedoffprice: 999,
+      brand: "women & garden",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Lights%20&%20Lighting11.png?imbypass=true",
+      name: "daily Essential",
+      price: 1620,
+      strikedoffprice: 3599,
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Home%20&%20Garden11.png?imbypass=true",
+      name: "Home",
+      price: 1620,
+      strikedoffprice: 3599,
+      brand: "women",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Daily%20Essentials11.png?imbypass=true",
+      name: "Daily ",
+      price: 599,
+      strikedoffprice: 999,
+      brand: "mens",
+    },
+    {
+      image_url:
+        "https://uidesign.gbtcdn.com/GB/images/others/top_brands/Toys,%20Baby%20&%20Kids11.png?imbypass=true",
+      name: "Gadget",
+      price: 1575,
+      strikedoffprice: 3499,
+      brand: "women",
+    },
+  ];
+
+  display2();
+
+  function display2() {
+    let count2 = 0;
+    // ------count1
+    // console.log(menData2);
+    mensData2.forEach(function (elm) {
+      let div = document.createElement("div");
+      div.setAttribute("class", "child2");
+      count2++;
+      // count1++;
+      div.setAttribute("id", "e" + count2);
+
+      let img = document.createElement("img");
+      img.setAttribute("src", elm.image_url);
+
+      let p = document.createElement("p");
+      p.innerText = elm.name;
+
+      div.append(img, p);
+
+      let box = document.querySelector("#container2");
+
+      box.append(div);
+    });
+  }
+  var left2 = 1;
+  var right2 = 7;
+  function onshow() {
+    for (let i = left2; i <= right2; i++) {
+      document.getElementById("e" + i).style.display = "inline-block";
+      // ---------------------use=d
+    }
+  }
+  function moveright2() {
+    if (left2 <= 7 && right2 <= 14) {
+      document.getElementById("e" + left2).style.display = "none";
+      left2 += 1;
+      right2 += 1;
+      for (let i = left2; i <= right2; i++) {
+        document.getElementById("e" + i).style.display = "inline-block";
+      }
+    } else {
+      return;
+    }
+  }
+
+  function moveleft2() {
+    if (left2 >= 2 && right2 >= 6) {
+      document.getElementById("e" + right2).style.display = "none";
+      left2 -= 1;
+      right2 -= 1;
+      for (let i = left2; i <= right2; i++) {
+        document.getElementById("e" + i).style.display = "inline-block";
+      }
+    } else {
+      return;
+    }
+  }
+</script>
