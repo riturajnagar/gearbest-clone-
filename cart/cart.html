@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="footer.css">
     <style>
        
     </style>
@@ -13,12 +14,14 @@
 <body>
     <div id ="t_nav">
         <img style="margin-left: 2%;margin-top: 10px;" src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="">
-         <spam><p>ship to</p></spam><spam><select name="" id="">
+        <select name="" id="select">
+            <option value="">Select country</option>
             <option value="">india</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-        </select></spam>
+            <option value="">china</option>
+            <option value="">usa</option>
+            <option value="">uk</option>
+            <option value="">russia</option>
+        </select>
     </div>
     <nav class="paycartCenterBox paycartStatus_container">
         <div class="paycartCenterBox_name">
@@ -46,19 +49,73 @@
             </li>
         </ul>
     </nav>
-    <div id="nav">
-     <div id="option1">
-        <h4>Selected Item(s)</h4>
-     </div>
-     <div id="option2">
-        <h4>unit price</h4>
-        <h4>Quantity</h4>
-        <h4>Subtotal</h4>
-        <h4>Operation</h4>
-     </div>
-    </div>
+   <table>
+    <thead>
+        <tr>
+            <th>Selected Item(s)</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th>Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- append data here! -->
+    </tbody>
+   </table>
     <div id="container"></div>
+
+    
+    <div id="place-Order">
+        <div id="apply">
+            <div class="waranti">
+                    <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/money_back@.png" alt="">
+                    <div class="">
+                        <p>45 days</p>
+                        <p>Money Back Guarantee</p>
+                    </div>
+            </div>
+            <div class="waranti">
+                        <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/repair@.png" alt="">
+                        <div>
+                            <p>360 days</p>
+                            <p>Free Repair Warranty</p>
+                        </div>
+            </div>
+            
+        <div>
+
+    </div>
+
+</div>
+       <div id="grand-total"> 
+                 <div class="chekoutdiv">
+                        <div class="price">
+                            <p>Your Subtotal</p>
+                            <p class="totalPrice">$0</p>
+                        </div>
+                        <div class="shipping-charge">
+                            <p>saving</p>
+                            <p class="offer">$0.00</p>
+                        </div>
+                        <div class="total">
+                            <p>Total</p>
+                            <h4 class="paytotal">$0.0</h4>
+                        </div>   
+                  </div>
+                   <div id="cheak_out">
+                       <img class="check_out_img" src="https://css.gbtcdn.com/imagecache/gbw/img/buynow_en.93a4b6e.png" alt="">
+                        <p class="OR">OR</p>
+                       <img class="check_out_img" src="https://css.gbtcdn.com/imagecache/gbw/img/paypal_credit_en.10b3871.png" alt="">
+                        <P class="OR">OR</P>
+                   <button class="btn-place-order" ><a hrf="">Check Out</a></button>
+                </div>
+       </div>
+</div>
+
+
+    <div id="foot"></div>
 </body>
 </html>
 
-<script src="cart.js"></script>
+<script src="cart.js" type="module"></script>
