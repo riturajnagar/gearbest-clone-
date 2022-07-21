@@ -95,6 +95,8 @@ a {
 #options > div > a {
   width: 60px;
   margin-left: 5%;
+  text-decoration: none;
+  color: black;
 }
 #options > div > img {
   /* border: 1px solid blue; */
@@ -122,6 +124,9 @@ a {
 }
 #categories > div > a {
   color: black;
+}
+#categories > div > a:hover{
+  border-bottom: 5px solid black;
 }
 #categories > div:first-child > a {
   color: white;
