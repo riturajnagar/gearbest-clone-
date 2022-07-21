@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Page</title>
+    <link rel="stylesheet" href="./address.css">
+</head>
+<body>
+    
+    <div id="head">
+        <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="">
+    </div>
+    <hr>
+    <div id="heading">
+        <h1>Add New Address</h1>
+    </div>
+    
+    <div id="body">
+        <form id="formFill">
+            <div class="input">
+                <label class="lable">
+                    *First Name:
+                </label>
+                <div>
+                    <input class="details" id="name" type="text" required>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *Last Name:
+                </label>
+                <div>
+                    <input class="details" id="lastName" type="text" required>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *Address Line 1:
+                </label>
+                <div>
+                    <input class="details" id="address" type="text" required>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    Address Line 2
+                </label>
+                <div>
+                    <input class="details" id="address2" type="text">
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *Country/Region:
+                </label>
+                <div>
+                   <select class="details" name="" id="country" required>
+                    <option value="UNITED STATES">UNITED STATES</option>
+                    <option value="INDIA">INDIA</option>
+                    <option value="ENGLAND">ENGLAND</option>
+                    <option value="SPAIN">SPAIN</option>
+                    <option value="GERMANY">GERMANY</option>
+                    <option value="UAE">UAE</option>
+                    <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+                    <option value="BANGLADESH">BANGLADESH</option>
+                    <option value="RUSSIA">RUSSIA</option>
+                    <option value="AUSTRALIA">AUSTRALIA</option>
+                    <option value="ITALY">ITALY</option>
+                    <option value="CHINA">CHINA</option>
+                    <option value="TURKEY">TURKEY</option>
+                    <option value="MALAYSIA">MALAYSIA</option>
+                    <option value="QUTAR">QUTAR</option>
+                    <option value="JAPAN">JAPAN</option>
+                    <option value="SOUTH KOREA">SOUTH KOREA</option>
+                    <option value="TAIWAN">TAIWAN</option>
+                    <option value="UKRAIN">UKRAIN</option>
+                    <option value="MALDIVES">MALDIVES</option>
+                    <option value="FRANCE">FRANCE</option>
+                    <option value="SWITZERLAND">SWITZERLAND</option>
+                    <option value="MEXICO">MEXICO</option>
+                    <option value="BRAZIL">BRAZIL</option>
+                    <option value="ARGENTINA">ARGENTINA</option>
+                   </select>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *State / Province:
+                </label>
+                <div>
+                   <select class="details" name="" id="state" required>
+                    <option value="">Please Select</option>
+                    <option value="AASAM">AASAM</option>
+                    <option value="BIHAR">BIHAR</option>
+                    <option value="CHHATTISHGARH">CHHATTISHGARH</option>
+                    <option value="PUNJAB">PUNJAB</option>
+                    <option value="TELENGANA">TELENGANA</option>
+                    <option value="MAHARASTRA">MAHARASTRA</option>
+                    <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                    <option value="TAMILNADU">TAMILNADU</option>
+                    <option value="KARNATAKA">KARNATAKA</option>
+                    <option value="TRIPURA">TRIPURA</option>
+                    <option value="UTTRA KHAND">UTTRA KHAND</option>
+                    <option value="DELHI">DELHI</option>
+                    <option value="ANDHARA PRADESH">ANDHARA PRADESH</option>
+                    <option value="GUJRAT">GUJRAT</option>
+                    <option value="HARYANA">HARYANA</option>
+                    <option value="KERALA">KERALA</option>
+                    <option value="MADDHYA PRADESH">MADDHYA PRADESH</option>
+                    <option value="NAGALAND">NAGALAND</option>
+                    <option value="ODDISHA">ODDISHA</option>
+                    <option value="WEST BENGAL">WEST BENGAL</option>
+                   </select>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *City:
+                </label>
+                <div>
+                    <input class="details" id="city" type="text" required>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *Zip/Postal Code:
+                </label>
+                <div>
+                    <input class="details" id="pin" type="text" required>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *Phone Number:
+                </label>
+                <div>
+                    <input class="details" id="phone" type="text" value="+91" required>
+                </div>
+            </div>
+            <div class="input">
+                <label class="lable">
+                    *Email:
+                </label>
+                <div>
+                    <input class="details" id="email" type="email" required>
+                </div>
+            </div>
+            <div id="checkbox">
+                <input id="check" type="checkbox">
+                <p>Set as my default address</p>
+            </div>
+            <div class="button">
+                <!-- <button onclick="cancle()" id="can">Cancle</button> -->
+                <button onclick="confirm(event)" id="con">Confirm</button> 
+            </div>
+        </form>
+    </div>
+    <div id="bottom">
+        <div id="tagg"><p>Popular Searches:</p></div>
+        <div id="popular">
+          <a href="">xiaomi poco m3</a>
+          <a href="">ortur master 2 20w </a>
+          <a href="">children's toys </a>
+          <a href="">xiaomi cc9 pro phone </a>
+          <a href="">accessories de </a>
+          <a href="">mobile phone smartphones</a>
+          <a href="">smartphones phones </a>
+          <a href="">smartphone accessory </a>
+          <a href="">cover case </a>
+          <a href="">smartphones pro </a>
+          <a href="">male man</a>
+          <a href="">microfone in portable </a>
+          <a href="">wifi hdmi box</a>
+          <a href="">sbart watch</a>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div id="footer_mainbox">
+        <!-- append footer here -->
+    </div>
+
+
+</body>
+</html>
+
+<script src="./address.js">
+</script>
