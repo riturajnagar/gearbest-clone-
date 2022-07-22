@@ -64,7 +64,7 @@ let navbar = () => {
     <div id="categ"><a href=""> Categories</a></div>
     <div id="super_deals"><a href="./superdeal.html"> Super Deals</a></div>
     <div id="app_only"><a href="./apponly.html"> App Only</a></div>
-    <div id="new_arrivals"><a href=""> New Arrivals</a></div>
+    <div id="new_arrivals"><a href="./new.html"> New Arrivals</a></div>
   </div>`;
 };
 

@@ -1,4 +1,8 @@
+document.getElementById("icon").addEventListener("click", refresh);
 
+function refresh() {
+  window.location.href = "../index.html";
+}
 let append2 = ()=> {
 
     let data = JSON.parse(localStorage.getItem("users")) || [];
