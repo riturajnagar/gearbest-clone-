@@ -6,7 +6,7 @@ body {
 }
 
 #navbar {
-  width: 82%;
+  width: 90%;
   margin: auto;
 }
 /* top navbar css */
@@ -73,7 +73,7 @@ a {
 #s-btn > img {
   width: 500%;
   position: relative;
-  top: -18px;
+  top: -22px;
   left: -27px;
   padding: 0px;
 }

@@ -1,7 +1,12 @@
 
    import footer from "../components/footer.js"
     // console.log(footer)
-  document.getElementById("foot").innerHTML=footer();
+  document.getElementById("footer").innerHTML=footer();
+  document.getElementById("icon").addEventListener("click", refresh);
+document.getElementById("footer_logo").addEventListener("click", refresh);
+function refresh() {
+  window.location.href = "../index.html";
+}
 
   let order_item=JSON.parse(localStorage.getItem("cart_ls"))
   console.log(order_item)
