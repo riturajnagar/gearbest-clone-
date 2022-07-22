@@ -243,6 +243,7 @@ let display = (data) => {
     cart.addEventListener("click", function () {
       cart_ls.push(el);
       localStorage.setItem("cart_ls", JSON.stringify(cart_ls));
+      alert("Item Succesfully Added");
     });
     div.append(img, desc, price, div1, cart);
 
