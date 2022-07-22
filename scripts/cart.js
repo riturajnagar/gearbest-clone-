@@ -1,4 +1,5 @@
 
+    
    import footer from "../components/footer.js"
     // console.log(footer)
   document.getElementById("footer").innerHTML=footer();
@@ -161,11 +162,15 @@ cont.append(div)
     let sum1=0;
     let sum2=0;
     for(let i=0;i<order_item.length;i++){
-       
+    let  save=order_item[i].prevPrice.trim().split("")
+     let save1=save.slice(1,save.length-1).join("")
+    
        sum1=sum1+Number(order_item[i].price)
-       sum2=sum2+Number(order_item[i].prevPrice)
+       sum2=sum2+Number(save1)
     }
+   
     let t_save=Math.ceil(sum2-sum1) 
+   
     document.querySelector(".totalPrice").innerText="$"+Math.ceil(sum1);
     document.querySelector(".offer").innerText="$"+Math.ceil(t_save);
  
@@ -178,5 +183,11 @@ cont.append(div)
         return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
       }
 
-      document.getElementById("bag").innerText =order_item.length;
+     let bill={
+      your_subtotal: Math.ceil(sum1),
+      saving:Math.ceil(t_save),
+      Total: Math.ceil(sum1)
+     }
+    console.log(bill)
+    localStorage.setItem("order_bill",JSON.stringify(bill))
   }
