@@ -220,6 +220,7 @@ let display = (data) => {
     let div = document.createElement("div");
     div.addEventListener("click", function () {
       localStorage.setItem("cart_item", JSON.stringify(el));
+      // window.location.href = '';
     });
     div.setAttribute("class", "gitem");
     let img = document.createElement("img");
