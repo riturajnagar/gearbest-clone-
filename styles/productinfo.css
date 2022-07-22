@@ -1,0 +1,57 @@
+
+
+ #ash1{
+    display: flex;
+    gap: 20%;
+ }
+
+ #image{
+    border: 2px solid black;
+    border-radius: 15px;
+ }
+
+ #productInfo{
+   cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 50px;
+  font-size: larger;
+  font-weight: bold;
+ }
+
+
+
+ button{
+    margin-top: 35%;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+    background-color: green;
+    cursor: pointer;
+
+ }  
+ 
+ p{
+
+    margin-top: 10%;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
