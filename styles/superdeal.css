@@ -185,10 +185,10 @@ a {
   cursor: pointer;
 }
 #s-btn > img {
-  width: 400%;
+  width: 300%;
   position: relative;
-  top: -28px;
-  left: -32px;
+  top: -20px;
+  left: -24px;
   padding: 0px;
 }
 

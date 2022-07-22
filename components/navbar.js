@@ -39,7 +39,7 @@ let navbar = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
           alt=""
         />
-        <a href="">Sign In</a>
+        <a href="./login.html">Sign In</a>
       </div>
       <div>
         <img
@@ -53,7 +53,7 @@ let navbar = () => {
           src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/shopping-cart.png"
           alt=""
         />
-        <a href="">Cart</a>
+        <a href="./cart.html">Cart</a>
       </div>
     </div>
   </div>
@@ -61,7 +61,7 @@ let navbar = () => {
   <div id="categories">
     <div id="categ"><a href=""> Categories</a></div>
     <div id="super_deals"><a href="./superdeal.html"> Super Deals</a></div>
-    <div id="app_only"><a href=""> App Only</a></div>
+    <div id="app_only"><a href="./apponly.html"> App Only</a></div>
     <div id="new_arrivals"><a href=""> New Arrivals</a></div>
   </div>`;
 };
