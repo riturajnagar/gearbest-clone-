@@ -53,7 +53,9 @@ let navbar = () => {
           src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/shopping-cart.png"
           alt=""
         />
-        <a href="./cart.html">Cart</a>
+        
+        <a   onclick='location.href="cart.html"'>Cart</a>
+        <sup id="bag">0</sup>
       </div>
     </div>
   </div>
