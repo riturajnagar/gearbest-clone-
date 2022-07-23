@@ -1,3 +1,24 @@
+import navbar from "../components/navbar.js"
+
+document.getElementById("navbar").innerHTML = navbar();
+
+// importing footer
+import footer from "../components/footer.js";
+
+document.getElementById("footer").innerHTML = footer();
+
+document.getElementById("icon").addEventListener("click", refresh);
+document.getElementById("footer_logo").addEventListener("click", refresh);
+function refresh() {
+  window.location.href = "./index.html";
+}
+let cart_ls = JSON.parse(localStorage.getItem('cart_ls'));
+let bag = document.getElementById('bag');
+bag.innerText = cart_ls.length;
+      console.log(cart_ls.length);
+
+
+
 var cartData = JSON.parse(localStorage.getItem("cart_item"));
 console.log(cartData);
 
@@ -18,7 +39,7 @@ data.map(function (el, index) {
   price.innerText = `MRP ${el.prevPrice}`;
 
   var btn = document.createElement("button");
-  btn.innerText = "Add To Cart";
+  btn.innerText = "Go To Cart";
   btn.addEventListener("click", function () {
     addToCart(el, index);
   });
@@ -37,3 +58,4 @@ function addToCart(elem, index) {
   localStorage.setItem("cart_item", JSON.stringify(cartData));
   window.location.reload();
 }
+

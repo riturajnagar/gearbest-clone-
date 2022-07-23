@@ -365,3 +365,7 @@ function hottest(){
   }
 
 
+  
+  let bag = document.getElementById('bag');
+  bag.innerText = cart_ls.length;
+        console.log(cart_ls.length);

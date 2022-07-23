@@ -96,10 +96,14 @@ a {
   margin-left: -10%;
 }
 #options > div > a {
+  /* border: 1px solid red; */
   width: 60px;
   margin-left: 5%;
   text-decoration: none;
   color: black;
+}
+#options > div > a:hover{
+  cursor: pointer;
 }
 #options > div > img {
   /* border: 1px solid blue; */
@@ -636,7 +640,7 @@ h2::after {
   width: 15%;
 }
 
-#bag{
+#bag,#bag1{
   /* border: 1px solid red; */
   padding: 1px;
   font-size: 16px;

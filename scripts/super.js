@@ -221,6 +221,7 @@ let display = (data) => {
     div.addEventListener("click", function () {
       localStorage.setItem("cart_item", JSON.stringify(el));
       // window.location.href = '';
+      
     });
     div.setAttribute("class", "gitem");
     let img = document.createElement("img");
@@ -306,3 +307,8 @@ function newest() {
 }
 
 console.log("h");
+
+
+let bag = document.getElementById('bag');
+bag.innerText = cart_ls.length;
+      console.log(cart_ls.length);

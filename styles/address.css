@@ -16,6 +16,9 @@
   margin: auto;
   margin-bottom: 30px;
 }
+#options > div > a:hover{
+  cursor: pointer;
+}
 #body {
   height: auto;
   width: 70%;

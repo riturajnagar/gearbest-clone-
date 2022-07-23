@@ -46,7 +46,7 @@ let navbar = () => {
           src="https://cdn-icons-png.flaticon.com/512/73/73814.png"
           alt=""
         />
-        <a href="">Favorites<sup id="bag">0</sup></a>
+        <a href="">Favorites<sup id="bag1">0</sup></a>
       </div>
       <div>
         <img
