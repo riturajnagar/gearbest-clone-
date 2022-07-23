@@ -11,6 +11,11 @@
 #head > img {
   height: 100%;
 }
+#options > div:nth-child(1)>a{
+  /* border: 1px solid red; */
+  overflow: hidden;
+  width: 97px;
+}
 #heading {
   width: 90%;
   margin: auto;

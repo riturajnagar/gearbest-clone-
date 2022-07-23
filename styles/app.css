@@ -445,6 +445,16 @@ a {
   font-size: 16px;
   color: red;
 }
+#options > div:nth-child(1) > p {
+  /* border: 1px solid red; */
+  cursor: pointer;
+  overflow: hidden;
+  width: 90px;
+  padding-top: 10px;
+  color: black;
+  margin-left: 0px;
+  margin-top: -6px;
+}
 #options > div > a:hover{
   cursor: pointer;
 }

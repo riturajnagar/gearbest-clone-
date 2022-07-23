@@ -6,7 +6,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-#content{
+#content {
   width: 90%;
   margin: auto;
 }
@@ -215,6 +215,16 @@ a {
   text-decoration: none;
   color: black;
 }
+#options > div:nth-child(1) > p {
+  /* border: 1px solid red; */
+  cursor: pointer;
+  overflow: hidden;
+  width: 90px;
+  padding-top: 10px;
+  color: black;
+  margin-left: -15px;
+  margin-top: -5px;
+}
 #options > div > img {
   /* border: 1px solid blue; */
   width: 25px;
@@ -403,12 +413,14 @@ a {
   margin-bottom: 20px;
 }
 
-#bag,#bag1{
+#bag,
+#bag1 {
   /* border: 1px solid red; */
   padding: 1px;
   font-size: 16px;
   color: red;
 }
-#options > div > a:hover{
+#options > div > a:hover {
   cursor: pointer;
 }
+

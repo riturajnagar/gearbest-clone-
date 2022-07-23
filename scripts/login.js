@@ -5,7 +5,7 @@ function refresh() {
 }
 
 function Visitor(e, p, rp, t) {
-  this.emali = e;
+  this.email = e;
   this.password = p;
   this.retype = rp;
   this.text = t;
@@ -42,6 +42,7 @@ let register = (e) => {
     alert("Some thing went worng!!!");
   }
   if (retype === password) {
+    alert('User Registered');
     localStorage.setItem("visitors", JSON.stringify(data));
     window.location.href = "./signin.html";
   }

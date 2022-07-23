@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
-    <link rel="stylesheet" href="./styles/authenticate.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./styles/authenticate.css" />
+  </head>
+  <body>
     <div id="topLogo">
-        <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png" alt="" id="icon">
+      <img
+        src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png"
+        alt=""
+        id="icon"
+      />
     </div>
 
     <div id="signInBody">
-
-        <div id="links">
-            <div><a href="./signin.html">SIGN IN</a></div>
-            <div><a href="./login.html">REGISTER</a></div>
+      <div id="links">
+        <div><a href="./signin.html">SIGN IN</a></div>
+        <div><a href="./login.html">REGISTER</a></div>
+      </div>
+      <div id="formDiv">
+        <form onsubmit="register(event)" id="form">
+          <input id="email" type="email" placeholder="Email" required />
+          <input
+            id="password"
+            type="password"
+            placeholder="Creat Password"
+            required
+          />
+          <input
+            id="password2"
+            type="password"
+            placeholder="Retype Password"
+            required
+          />
+          <div id="withCaptcha">
+            <input
+              id="captcha"
+              type="text"
+              placeholder="Enter the Code"
+              required
+            />
+            <div id="randomNum"></div>
+          </div>
+          <div id="checkbox">
+            <input id="check" type="checkbox" />
+            <p>
+              I agree to Gearbest Terms and Conditions and Privacy Policies.
+            </p>
+          </div>
+          <div id="tip">
+            <p>
+              Tip: To maximize online security, please do not reuse passwords or
+              choose easy to guess ones on Gearbest.
+            </p>
+          </div>
+          <input id="button" type="submit" value="Register" />
+        </form>
+        <div id="viaGoogle">
+          <p>or conect Via</p>
+          <img
+            src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+            alt=""
+          />
         </div>
-        <div id="formDiv">
-            <form onsubmit="register(event)" id="form">
-
-                <input id="email" type="email" placeholder="Email" required>
-                <input id="password" type="password" placeholder="Creat Password" required>
-                <input id="password2" type="password" placeholder="Retype Password" required>
-                 <input id="captch" type="text" placeholder="Enter the Code" required>
-                
-                <div id="checkbox">
-                    <input id="check" type="checkbox">
-                    <p>I agree to Gearbest Terms and Conditions and Privacy Policies.</p>
-                </div>
-                <div id="tip">
-                    <p>Tip: To maximize online security, please do not reuse passwords or choose easy to guess ones on Gearbest.</p>
-                </div>
-                <input id="button" type="submit" value="Register">
-
-            </form>
-            <div id="viaGoogle">
-                <p>or conect Via</p>
-                <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="">
-            </div>
-        </div>
-
+      </div>
     </div>
 
     <div id="bottom">
-
-        <div id="img">
-            <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/money_back2@.png" alt="">
-            <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/mcafee_secure@.png" alt="">
-            <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/paypal@.png" alt="">
-        </div>
-        <div id="copyright">
-            <p>Copyright © 2014-2022 Gearbest.com. All Rights Reserved.</p>
-        </div>
-
+      <div id="img">
+        <img
+          src="https://css.gbtcdn.com/imagecache/gbw/img/site/money_back2@.png"
+          alt=""
+        />
+        <img
+          src="https://css.gbtcdn.com/imagecache/gbw/img/site/mcafee_secure@.png"
+          alt=""
+        />
+        <img
+          src="https://css.gbtcdn.com/imagecache/gbw/img/site/paypal@.png"
+          alt=""
+        />
+      </div>
+      <div id="copyright">
+        <p>Copyright © 2014-2022 Gearbest.com. All Rights Reserved.</p>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
 
-<script src="./scripts/login.js">
-
-</script>
+<script src="./scripts/login.js"></script>
