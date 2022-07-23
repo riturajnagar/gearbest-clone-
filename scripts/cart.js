@@ -12,6 +12,7 @@ function refresh() {
 
   let order_item=JSON.parse(localStorage.getItem("cart_ls"))
   console.log(order_item)
+  
 // var order_item
 //       = [
 //     {

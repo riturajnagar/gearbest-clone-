@@ -226,3 +226,7 @@ product.map(function (elem) {
 
 
 // Home page JS Data part End
+
+let cart_ls = JSON.parse(localStorage.getItem("cart_ls"));
+let bag = document.getElementById('bag');
+bag.innerText = cart_ls.length;

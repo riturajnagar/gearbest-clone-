@@ -1,7 +1,7 @@
 document.getElementById("icon").addEventListener("click", refresh);
 
 function refresh() {
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 }
 let append2 = ()=> {
 

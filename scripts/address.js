@@ -1,4 +1,8 @@
+document.getElementById("icon").addEventListener("click", refresh);
 
+function refresh() {
+  window.location.href = "./index.html";
+}
 
 function User(f,l,al,al2,c,s,ci,zi,p,e){
 
