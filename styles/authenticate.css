@@ -128,3 +128,24 @@ input[type="checkbox"] {
   border-bottom: 0px;
   color: grey;
 }
+#withCaptcha {
+  display: flex;
+}
+#captcha {
+  border: 1px solid grey;
+  border-right: 0px;
+}
+#randomNum {
+  padding-left: 100px;
+  padding-right: 70px;
+  /* margin-right: 20px; */
+  border: 1px solid grey;
+  border-left: 0px;
+  text-decoration: line-through;
+}
+#options > div:nth-child(1)>p{
+  /* border: 1px solid red; */
+  overflow: hidden;
+  width: 90px;
+  padding-top: 10px;
+}

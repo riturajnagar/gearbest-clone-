@@ -12,12 +12,15 @@ let signin = (e) => {
     let form = document.getElementById("form")
 
     let getEmail = form.email.value;
+    
     let getPassword = form.password.value;
 
     data.forEach((el)=>{
-     if(getPassword == el.password){
+     if(getPassword == el.password && getEmail == el.email){
 
             alert("Signin Successfully")
+            localStorage.setItem('flag',JSON.stringify('true'));
+            window.location.href = './index.html';
 
         }
         else{

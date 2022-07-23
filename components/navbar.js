@@ -39,7 +39,7 @@ let navbar = () => {
           src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
           alt=""
         />
-        <a href="./login.html">Sign In</a>
+        <p  id="sign_in" onclick="checkLogin()">Sign In</p>
       </div>
       <div>
         <img

@@ -363,7 +363,13 @@ function hottest(){
    display(x)
 
   }
-
+  let flag = JSON.parse(localStorage.getItem("flag"));
+  let ptag = document.getElementById("sign_in");
+  let details = JSON.parse(localStorage.getItem("visitors"));
+  console.log(details)
+  if (flag == "true") {
+    ptag.innerText = details[0].email;
+  }
 
   
   let bag = document.getElementById('bag');
