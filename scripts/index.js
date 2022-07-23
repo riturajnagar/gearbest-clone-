@@ -11,7 +11,7 @@ document.getElementById("footer").innerHTML = footer();
 document.getElementById("icon").addEventListener("click", refresh);
 document.getElementById("footer_logo").addEventListener("click", refresh);
 function refresh() {
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 }
 
 // home page Data JS part 
@@ -218,6 +218,11 @@ product.map(function (elem) {
 
   document.querySelector("#container").append(box);
 });
+
+// search-bar script
+
+
+
 
 
 // Home page JS Data part End

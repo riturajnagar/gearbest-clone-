@@ -25,7 +25,7 @@ let navbar = () => {
       <select name="" id="s_select">
         <option value="">All</option>
       </select>
-      <input type="text" placeholder="Search" id="s_bar" />
+      <input type="text" placeholder="Search" id="s_bar" onchange="searchData()"/>
       <button id="s-btn">
         <img
           src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png"
@@ -53,7 +53,9 @@ let navbar = () => {
           src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/shopping-cart.png"
           alt=""
         />
-        <a href="./cart.html">Cart</a>
+        
+        <a   onclick='location.href="cart.html"'>Cart</a>
+        <sup id="bag">0</sup>
       </div>
     </div>
   </div>
