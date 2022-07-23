@@ -541,3 +541,117 @@ h2::after {
 
 
 /* home page css end */
+
+
+/* search functionality css */
+#content{
+  width: 90%;
+  margin: auto;
+}
+#gsort {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  /* border: 1px solid red; */
+  background-color: #f2f2f2;
+}
+#gsort h4 {
+  margin-left: 15px;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #2a2012;
+}
+
+#gsort h4:nth-child(2) {
+  color: gray;
+}
+
+#gcontainer {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 10px;
+  background-color: #f2f2f2;
+  /* border: 1px solid darkblue; */
+}
+#gcartbtn {
+  width: 10%;
+  margin-left: 85%;
+  /* border: 1px solid green; */
+  cursor: pointer;
+}
+#gcontainer > div {
+  /* border: 1px solid darkgreen; */
+  width: 100%;
+  background-color: white;
+}
+.gitem:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.gitem img {
+  width: 100%;
+}
+
+.gitem p {
+  margin-top: 3px;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-left: 4px;
+}
+.gitem p + p {
+  color: #f30246;
+  font-size: 15px;
+  padding-right: 190px;
+}
+.prev p {
+  font-size: 14px;
+  padding-right: 200px;
+}
+
+.gitem img + p:hover {
+  color: #e7a652;
+  cursor: pointer;
+}
+.disc {
+  width: 20%;
+  position: relative;
+  top: -6px;
+}
+
+#gcontainer > div > div p {
+  color: gray;
+  margin-left: 4px;
+}
+#gfeatures {
+  width: 90%;
+  margin: auto;
+}
+#gfeatures img {
+  width: 100%;
+  margin-top: 20px;
+}
+#gpopsearch {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+#gpopsearch div:nth-child(1),
+#gpopsearch div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}
+
+#scont {
+  /* border: 1px solid saddlebrown; */
+  width: 90%;
+  margin: auto;
+  display: grid;
+}
+#sbox {
+  border: 1px solid black;
+  width: 15%;
+}

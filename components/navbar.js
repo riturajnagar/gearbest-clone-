@@ -25,7 +25,7 @@ let navbar = () => {
       <select name="" id="s_select">
         <option value="">All</option>
       </select>
-      <input type="text" placeholder="Search" id="s_bar" />
+      <input type="text" placeholder="Search" id="s_bar" onchange="searchData()"/>
       <button id="s-btn">
         <img
           src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png"
