@@ -596,16 +596,16 @@ function searchData(){
 
       return el.name == query;
     })
-    // console.log(newData)
+     console.log(newData)
+     let box1 = document.querySelector("#content");
+  box1.innerHTML = "";
     display(newData);
 }
 
 
 let display = (data) => {
-  let box1 = document.querySelector("#content");
-  box1.innerHTML = null;
   let box = document.querySelector("#gcontainer");
-  box.innerHTML = null;
+  // box.innerHTML = null;
   data.forEach((el) => {
     let div = document.createElement("div");
     div.addEventListener("click", function () {
@@ -637,7 +637,7 @@ let display = (data) => {
     });
     div.append(img, desc, price, div1, cart);
 
-    box.appendChild(div);
+    box.append(div);
   });
 };
 </script>

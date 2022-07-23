@@ -26,7 +26,7 @@ let navbar = () => {
         <option value="">All</option>
       </select>
       <input type="text" placeholder="Search" id="s_bar" onchange="searchData()"/>
-      <button id="s-btn">
+      <button id="s-btn" onclick="searchData()">
         <img
           src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png"
           alt=""
@@ -46,7 +46,7 @@ let navbar = () => {
           src="https://cdn-icons-png.flaticon.com/512/73/73814.png"
           alt=""
         />
-        <a href="">Favorites</a>
+        <a href="">Favorites<sup id="bag">0</sup></a>
       </div>
       <div>
         <img
@@ -54,8 +54,8 @@ let navbar = () => {
           alt=""
         />
         
-        <a   onclick='location.href="cart.html"'>Cart</a>
-        <sup id="bag">0</sup>
+        <a   onclick='location.href="cart.html"'>Cart<sup id="bag">0</sup></a>
+        
       </div>
     </div>
   </div>
