@@ -50,7 +50,7 @@ let navbar = () => {
       </div>
       <div>
         <img
-          src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/shopping-cart.png"
+          src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
           alt=""
         />
         
