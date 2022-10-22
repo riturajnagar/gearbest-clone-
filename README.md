@@ -52,13 +52,7 @@ This is a simple project. You can use any server to serve up the html pages. Onc
 
 ![image](https://github.com/riturajnagar/gearbest-clone-/blob/main/images/Cart-G.PNG)
 
-4.Checkout Page
 
-![image](https://github.com/erGaurav13/Sephore-Clone/blob/main/Sephora/Screenshot%20(108).png)
-
-5.Payment Confirm
-
-![image](https://github.com/erGaurav13/Sephore-Clone/blob/main/Sephora/Payment.png)
 
 
 
