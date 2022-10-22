@@ -9,7 +9,7 @@ AS part of unit 2 construct week we cloned the frontend of sephora.com to the be
 
 
 
-## collaborators:
+## Collaborators:
 - [Gaurav kumar](https://github.com/erGaurav13)
 - [Rituraj nagar](https://github.com/riturajnagar)
 - [Guduu Kumar](https://github.com/gudduchy)
