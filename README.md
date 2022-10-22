@@ -11,7 +11,7 @@ AS part of unit 2 construct week we cloned the frontend of sephora.com to the be
 
 ## collaborators:
 - [Gaurav kumar](https://github.com/erGaurav13)
-- [Ritu Raj nagar](https://github.com/riturajnagar)
+- [Rituraj nagar](https://github.com/riturajnagar)
 - [Guduu Kumar](https://github.com/gudduchy)
 - [Roni ](https://github.com/roni8420)
 
@@ -37,20 +37,20 @@ This is a simple project. You can use any server to serve up the html pages. Onc
 
 <h1>Snapshots of our project</h1>
 
-1. This is the Landing page of Sephora
+1. This is the Landing page of Gearbest
 
-![image](https://github.com/erGaurav13/Sephore-Clone/blob/main/Sephora/Landing%20Page.png)
+![image](https://github.com/riturajnagar/gearbest-clone-/blob/main/images/Landing-Page-G.PNG)
 
 
 2.This is Sign-up and Sign IN Page
 
-![image](https://github.com/erGaurav13/Sephore-Clone/blob/main/Sephora/Signup.png)
+![image](https://github.com/riturajnagar/gearbest-clone-/blob/main/images/Sigin-G.PNG)
 
-![image](https://github.com/erGaurav13/Sephore-Clone/blob/main/Sephora/Login%20Page.png)
+
 
 3. This is the basket.
 
-![image](https://github.com/erGaurav13/Sephore-Clone/blob/main/Sephora/Cart%20Page.png)
+![image](https://github.com/riturajnagar/gearbest-clone-/blob/main/images/Cart-G.PNG)
 
 4.Checkout Page
 
