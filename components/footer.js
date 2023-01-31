@@ -1,5 +1,5 @@
-let footer =()=>{
-return `<div id="footer1">
+let footer = () => {
+  return `<div id="footer1">
 <div>
   <img src="./images/Gearbest_icon.JPG" alt="" id="footer_logo" />
 </div>
@@ -55,12 +55,7 @@ return `<div id="footer1">
       alt=""
     />
   </div>
-  <div>
-    <img
-      src="https://cdn-icons.flaticon.com/png/128/1236/premium/1236871.png?token=exp=1658344536~hmac=8bfa9d332d203aa112b477bf2d863946"
-      alt=""
-    />
-  </div>
+  
   <div>
     <img
       src="https://cdn-icons-png.flaticon.com/128/1077/1077042.png"
@@ -226,7 +221,7 @@ return `<div id="footer1">
     alt=""
   />
 </div>
-</div>`
-}
+</div>`;
+};
 
 export default footer;
