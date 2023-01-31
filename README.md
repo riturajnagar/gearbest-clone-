@@ -1,8 +1,7 @@
 # Gearbest-Clone
 
-Gearbest is a   multinational retailer of electronic  products. Featuring nearly 340 brands, along with its own private label, gearbest Collection, Gearbest offers gadgets products including electronic, Phone, Asscessories, fragrance, nail color, beauty tools, body lotions and haircare. 
+Gearbest is a   multinational retailer of electronic  products. Featuring nearly 340 brands, along with its own private label, gearbest Collection, Gearbest offers gadgets products including electronic, Phone, Asscessories. 
 
-AS part of unit 2 construct week we cloned the frontend of sephora.com to the best of our ability in a team of 6 within the span of 5 days.
 
 [Original link](https://www.gearbest.com/)
 [Deploy link](https://famous-marzipan-49fcb5.netlify.app/)
