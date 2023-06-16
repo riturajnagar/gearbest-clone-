@@ -1,6 +1,6 @@
 # Gearbest-Clone
 
-Gearbest is a   multinational retailer of electronic  products. Featuring nearly 340 brands, along with its own private label, gearbest Collection, Gearbest offers gadgets products including electronic, Phone, Asscessories. 
+Gearbest is a   multinational retailer of electronic  products. Featuring nearly 340 brands, along with its own private label, Gearbest Collection, Gearbest offers gadgets products including electronics, Phones, and accessories. 
 
 
 [Original link](https://www.gearbest.com/)
@@ -29,10 +29,10 @@ Gearbest is a   multinational retailer of electronic  products. Featuring nearly
 1. Signin/Signup with Authenticate 
 2. Product Discovery Page
 3. Product Cart and Checkout Page
-4. Payment gateway Integration 
+4. Payment Gateway Integration 
 
 ## Try it out locally
-This is a simple project. You can use any server to serve up the html pages. Once the server is runnning just go to the localhost link the server provides.
+This is a simple project. You can use any server to serve up the HTML pages. Once the server is running just go to the localhost link the server provides.
 
 <h1>Snapshots of our project</h1>
 
@@ -41,7 +41,7 @@ This is a simple project. You can use any server to serve up the html pages. Onc
 ![image](https://github.com/riturajnagar/gearbest-clone-/blob/main/images/Landing-Page-G.PNG)
 
 
-2.This is Sign-up and Sign IN Page
+2. This is Sign-up and Sign IN Page
 
 ![image](https://github.com/riturajnagar/gearbest-clone-/blob/main/images/Sigin-G.PNG)
 
